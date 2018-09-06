@@ -11,5 +11,10 @@ import scrapy
 class CveItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    url = scrapy.Field()
-    cvenumeber = scrapy.Field()
+    cve = scrapy.Field()
+    abstract = scrapy.Field()
+    vulname = scrapy.Field()
+    vultime = scrapy.Field()
+    suggest = scrapy.Field()
+    refer = scrapy.Field()
+    level = scrapy.Field()
